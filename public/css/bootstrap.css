@@ -1,13 +1,4 @@
 @charset "UTF-8";
-@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
-@font-face {
-  font-family: "amaticR";
-  src: url(../fonts/AmaticSC-Regular.ttf);
-}
-@font-face {
-  font-family: "amaticB";
-  src: url(../fonts/AmaticSC-Bold.ttf);
-}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11984,70 +11975,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-.navbar a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px solid transparent;
-}
-
-.navbar a:hover {
-  border-bottom: 3px solid red;
-}
-
-.navbar a.active {
-  border-bottom: 3px solid red;
-}
-
-.section1 {
-  height: 55vh;
-  width: 100%;
-  background-color: whitesmoke;
-}
-
-.titre {
-  font-family: "amaticB";
-  color: black;
-  font-size: 50px;
-}
-
-.section2 {
-  width: 100%;
-  padding: 12px;
-}
-
-.vide {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 1vh;
-  width: 90%;
-  height: 26vh;
-}
-
-.info {
-  width: 50vw;
-}
-
-.pic {
-  width: 750px;
-}
-
-.centertext {
-  position: absolute;
-  bottom: 10%;
-  left: 20%;
-  background-color: white;
-  width: 50%;
-}
-
-.picture {
-  position: relative;
-  width: 750px;
 }

@@ -1,20 +1,187 @@
+<!DOCTYPE html>
+<html lang='en'>
 
-    <!DOCTYPE html>
-    <html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+    <link rel='stylesheet' href='./public/css/app.css'>
+</head>
 
-    <head>
-        <meta charset='UTF-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Document</title>
-        <link rel='stylesheet' href='./public/css/app.css'>
-    </head>
+<body>
+    <!-- nav -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>lions Resto</b><span class="text-danger">.</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-75 justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">chefs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
 
-    <body>
-        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="w-25">
+                        <button type="button" class="btn btn-danger rounded-4">book a table</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- fin nav -->
 
-        <script src=./node_modules/bootstrap/dist/js/bootstrap.bundle.js></script>
-        <script src="./public/js/app.js"></script>
-    </body>
 
-    </html>
+    <main>
+        <!-- section 1 -->
+        <section>
+            <div
+                class=" section1 w-100 d-flex d-lg-flex justify-content-center flex-lg-row flex-column flex-column-reverse align-content-center">
+                <div
+                    class="w-50 d-flex d-lg-flex flex-lg-column flex-column justify-content-lg-center justify-content-end align-content-center align-content-lg-center">
+                    <h1 class="w-50 titre ">enjour your healty delicious food</h1>
+                    <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ab, iusto magni
+                        suscipit
+                        sint laborum</p>
+                    <div class="d-lg-flex flex-lg-row flex-column gap-2">
+                        <button type="button" class="btn btn-danger rounded-5 w-25">book a table</button>
+                        <div class="d-flex d-lg-flex flex-row  flex-lg-column w-25">
+                            <button type="button" class="btn btn-outline-danger text-black"><i
+                                    class="fa-regular fa-circle-play fa-xl p-2" style="color: #e01a1a;"></i>watch
+                                video</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./public/image/img/hero-img(1).png" width="400px" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+        <!-- fin section 1 -->
 
+        <!-- section 2 -->
+        <section>
+            <div class="section2">
+                <div
+                    class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center">
+                    <h3>ABOUT US</h3>
+                    <h1>LEARN MORE <span class="text-danger">ABOUT US</span></h1>
+                </div>
+                <div class="d-flex">
+                    <div class="m-lg-2">
+                        <div class="picture">
+                            <img class="pic" src="./public/image/img/about(1).jpg" width="750px" alt="" srcset="">
+                            <div
+                                class=" centertext d-lg-flex flex-lg-column info justify-content-center align-items-center align-content-center">
+                                <h3>book a table</h3>
+                                <h3 class="text-danger"><span>+3323232323</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-5 container">
+                        <div class="d-flex flex-column w-100 container">
+                            <p class="w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum,
+                                reprehenderit.
+                            </p>
+                            <p class="w-75"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-check-all text-danger" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                                </svg>Lorem ipsum dolor sit amet.</p>
+                            <p class="w-75 gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-check-all text-danger" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                                </svg></i>Lorem ipsum dolor sit amet.</p>
+                            <p class="w-75"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-check-all text-danger  " viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486z" />
+                                </svg>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+
+                            <p class="w-75">Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing elit. Harum laudantium ratione alias assumenda dolor molestias id, impedit
+                                neque
+                                aspernatur veniam tempora porro distinctio fugiat esse. Suscipit ab quia molestiae
+                                repellat.
+                                adipisicing elit. Autem a esse sapiente laboriosam sit veniam harum, cumque deleniti
+                                tenetur
+                                quia repudiandae perspiciatis omnis tempora, sint eum ipsum, at asperiores fuga.</p>
+                            <div class="vide">
+                                    <video src="./public/video/sandwish.mp4"  width="370px" controls muted poster="./public/image/img/gallery/food.jpg"></video>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <script src=./node_modules/bootstrap/dist/js/bootstrap.bundle.js></script>
+    <script src="./public/js/app.js"></script>
+</body>
+
+</html>
