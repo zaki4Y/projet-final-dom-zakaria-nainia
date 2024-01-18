@@ -12069,3 +12069,33 @@ textarea.form-control-lg {
   border-color: red;
   padding: 10vh;
 }
+
+.section6 {
+  background-color: rgba(238, 238, 238, 0.368627451);
+  height: 60vh;
+  width: 100%;
+  align-items: center;
+}
+.section6 i {
+  color: orange;
+}
+.section6 img {
+  width: 15vw !important;
+  height: 30vh !important;
+  border: 3px white solid;
+  border-radius: 50%;
+}
+.section6 .carousel-content {
+  margin-left: 10vw;
+  height: 60vh;
+  display: flex;
+  align-items: start;
+}
+.section6 .left-section {
+  border-left: 3px red solid;
+  height: 30vh !important;
+}
+
+.section8 {
+  background-color: whitesmoke;
+}
