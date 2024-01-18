@@ -11933,7 +11933,6 @@ textarea.form-control-lg {
 
 .section3 {
   background-color: whitesmoke;
-  padding: 5vh;
 }
 
 .bgred {
@@ -11945,8 +11944,6 @@ textarea.form-control-lg {
 .imagebg {
   background-image: url("../image/img/stats-bg(1).jpg");
   background-attachment: fixed;
-  border-color: red;
-  padding: 10vh;
 }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=app.cssp.map */
