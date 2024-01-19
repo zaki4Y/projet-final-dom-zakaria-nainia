@@ -12132,3 +12132,10 @@ textarea.form-control-lg {
 .cd {
   height: 100%;
 }
+
+@media (max: width 550px) {
+  .section6 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}

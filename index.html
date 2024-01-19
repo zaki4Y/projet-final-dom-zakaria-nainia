@@ -60,7 +60,50 @@
                         </li>
                     </ul>
                     <div class="w-25">
-                        <button type="button" class="btn btn-danger rounded-4">book a table</button>
+                        <button type="button" class="btn btn-danger d-table  mx-auto" data-bs-toggle="modal"
+                            data-bs-target="#ModalForm">
+                            CONEXION
+                        </button>
+
+                        <!-- Modal Form -->
+                        <div class="modal fade" id="ModalForm" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <!-- Login Form -->
+                                    <form action="">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title">Modal Login Form</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="mb-3">
+                                                <label for="Username">Username<span class="text-danger">*</span></label>
+                                                <input type="text" name="username" class="form-control" id="Username"
+                                                    placeholder="Enter Username">
+                                            </div>
+
+                                            <div class="mb-3">
+                                                <label for="Password">Password<span class="text-danger">*</span></label>
+                                                <input type="password" name="password" class="form-control"
+                                                    id="Password" placeholder="Enter Password">
+                                            </div>
+                                            <div class="mb-3">
+                                                <input class="form-check-input" type="checkbox" value="" id="remember"
+                                                    required>
+                                                <label class="form-check-label" for="remember">Remember Me</label>
+                                                <a href="#" class="float-end">Forgot Password</a>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer pt-4">
+                                            <button type="button" class="btn btn-success mx-auto w-100">Login</button>
+                                        </div>
+                                        <p class="text-center">Not yet account,<a href="#">Signup</a></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -104,10 +147,10 @@
                     <h3>ABOUT US</h3>
                     <h1>LEARN MORE <span class="text-danger">ABOUT US</span></h1>
                 </div>
-                <div class="d-flex">
+                <div class="d-flex flex-lg-row  flex-column">
                     <div class="m-lg-2">
                         <div class="picture">
-                            <img class="pic" src="./public/image/img/about(1).jpg" width="750px" alt="" srcset="">
+                            <img class="pic" src="./public/image/img/about(1).jpg"  alt="" srcset="">
                             <div
                                 class=" centertext d-lg-flex flex-lg-column info justify-content-center align-items-center align-content-center">
                                 <h3>book a table</h3>
@@ -283,7 +326,7 @@
                         <div
                             class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
                             <h3>Menu</h3>
-                            <h1 class="text-danger"><span>BREAKFASt</span></h1>
+                            <h1 class="text-danger"><span>Starters</span></h1>
                         </div>
                         <div class="d-flex w-100 justify-content-around  align-content-center p-2">
                             <div>
@@ -395,7 +438,7 @@
                         tabindex="0">
                         <div
                             class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
-                            <h3>Menu</h3>
+                            <h3>Lunch</h3>
                             <h1 class="text-danger"><span>BREAKFASt</span></h1>
                         </div>
                         <div class="d-flex w-100 justify-content-around  align-content-center p-2">
@@ -449,7 +492,7 @@
                         tabindex="0">
                         <div
                             class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
-                            <h3>Menu</h3>
+                            <h3>Dinner</h3>
                             <h1 class="text-danger"><span>BREAKFASt</span></h1>
                         </div>
                         <div class="d-flex w-100 justify-content-around  align-content-center p-2">
@@ -694,13 +737,13 @@
 
 
         <!-- section 8 -->
-        <section class="p-2 section8">
+        <section class="p-2 section8 ">
             <div
-                class="d-flex flex-lg-column titre flex-column w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
+                class="d-flex flex-lg-column titre  w-100 align-items-lg-center align-items-center justify-content-center p-lg-3 container-lg">
                 <h3>CHEFS</h3>
                 <h1>OUR <span class="text-danger">PROFfESIONAL</span> CHEFS</h1>
             </div>
-            <div class="d-flex w-100 justify-content-around align-content-center ">
+            <div class="d-flex w-100 justify-content-around align-content-center flex-lg-row flex-column ">
 
                 <div class="card" style="width: 25rem;">
                     <img src="./public/image/img/chefs/chefs-1(1).jpg" class="card-img-top" alt="...">
@@ -881,14 +924,97 @@
                 </form>
                 <div class="d-flex justify-content-center p-3">
                     <button type="button"
-                        class="btn btn-danger  text-end border-danger-subtle rounded-pill gap-5 w-25 text-center">Send
+                        class="btn btn-danger text-end border-danger-subtle rounded-pill gap-5 w-25 text-center">Send
                         Message </button>
                 </div>
             </div>
+        </section>
+        <!-- fin section 11 -->
+
+
+
+
+
+
+
 
 
 
         </section>
+
+        <!-- section 12 -->
+        <footer class="bg-dark">
+            <div class="d-flex flex-lg-row flex-column text-white w-100 container p-5 gap-4 border-bottom">
+                <div class="d-flex align-items-start gap-2">
+                    <div class="mt-2">
+                        <i class="fa-solid fa-location-dot fs-3 text-white"></i>
+                    </div>
+                    <div>
+                        <h6>Adress</h6>
+                        <p class="w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, iure!</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-start gap-2 w-50">
+                    <div class="mt-2">
+                        <i class="fa-solid fa-phone fs-3 text-white"></i>
+                    </div>
+                    <div>
+                        <h6>Reservation</h6>
+                        <p>phone : 0123456789</p>
+                        <p>Email : nanana@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center gap-2 w-50">
+                    <div class="mt-2">
+                        <i class="fa-solid fa-clock fs-3 text-white"></i>
+                    </div>
+                    <div>
+                        <h6>Opning hours</h6>
+                        <p><b>Monday: 11AM</b>- 23PM</p>
+                        <p>Sunday Closed</p>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-start gap-2 w-50">
+                    <div>
+                        <h6>Follow us</h6>
+                        <div class="d-flex gap-3">
+                            <div class="border border-2 rounded-circle p-2">
+                                <i class="fa-brands fa-twitter fs-3"></i>
+                            </div>
+                            <div class="border border-2 rounded-circle p-2">
+                                <i class="fa-brands fa-facebook fs-3"></i>
+                            </div>
+                            <div class="border border-2 rounded-circle p-2">
+                                <i class="fa-brands fa-instagram fs-3"></i>
+                            </div>
+
+                            <div class="border border-2 rounded-circle p-2">
+                                <i class="fa-brands fa-linkedin fs-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-white p-3">
+                <div class="d-flex align-items-center flex-column">
+                    <p>&copy;Copyright <b>Yummy</b>.All rights resrved</p>
+                    <p>Sesigned By BootstrapMad</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+        <!-- fin section 12 -->
+
+
+
 
 
 
