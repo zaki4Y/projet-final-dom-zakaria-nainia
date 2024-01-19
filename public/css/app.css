@@ -12057,6 +12057,13 @@ textarea.form-control-lg {
   padding: 5vh;
 }
 
+.card {
+  transition: 0.32s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
 .bgred {
   background-color: red;
   width: 20vw;
@@ -12108,4 +12115,20 @@ textarea.form-control-lg {
 .btnbook {
   padding: 10px;
   margin-top: 10px;
+}
+
+.faicons {
+  border: 1px solid red;
+  border-radius: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+.cd {
+  height: 100%;
 }
